@@ -182,7 +182,7 @@ componentDidMount(){
               </Button>
             </div>
             <div className="button-update">
-              <Button variant="info" onSubmit={this.handleUpdate}>Update</Button>
+              <Button variant="info" onClick={this.handleUpdate}>Update</Button>
             </div>
           </div>
         </form>
