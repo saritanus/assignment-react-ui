@@ -1,0 +1,47 @@
+[
+    {
+        "id": "362d7089-14c8-4eec-9e96-0928cf7db114",
+        "serialNo": "serial-124",
+        "brand": "brand 1",
+        "model": "model 1",
+        "purchaseDate": "11-11-2020",
+        "status": "NEW",
+        "deleted": false
+    },
+    {
+        "id": "149087b3-a441-43a4-868e-a98749595c83",
+        "serialNo": "serial 2",
+        "brand": "brand 2",
+        "model": "model 2",
+        "purchaseDate": "11-11-2020",
+        "status": "OLD",
+        "deleted": false
+    },
+    {
+        "id": "aab41e16-192f-45a4-bac1-e6ed1c13a79c",
+        "serialNo": "serial 3",
+        "brand": "brand 3",
+        "model": "model 3",
+        "purchaseDate": "11-11-2020",
+        "status": "UNUSED",
+        "deleted": false
+    },
+    {
+        "id": "b39c7e34-48c1-4f85-87e9-e0d854833a3e",
+        "serialNo": "serial 4",
+        "brand": "brand 4",
+        "model": "model 4",
+        "purchaseDate": "11-11-2020",
+        "status": "NEW",
+        "deleted": false
+    },
+    {
+        "id": "c6b4acaf-78a0-4b26-b509-3ec211584aaa",
+        "serialNo": "serial 5",
+        "brand": "brand 5",
+        "model": "model 5",
+        "purchaseDate": "11-11-2020",
+        "status": "OLD",
+        "deleted": false
+    }
+]
