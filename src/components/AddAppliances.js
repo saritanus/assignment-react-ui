@@ -59,7 +59,7 @@ class AddAppliances extends Component {
           <FaPlus /> Add Appliance
         </div>
         <div className="card-body">
-          <form id="applianceForm" noValidate onSubmit={this.handleAdd}>
+          <form id="applianceForm"  onSubmit={this.handleAdd}>
             <div className="form-group form-row">
               <label
                 className="col-md-2 col-form-label text-md-right"

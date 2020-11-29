@@ -68,7 +68,7 @@ componentDidMount(){
   render() {
     return (
       <div>
-        <form>
+        <form id="editAppliance">
           <div className="form-group form-row">
             <label
               className="col-md-2 col-form-label text-md-right"
@@ -168,6 +168,7 @@ componentDidMount(){
                 id="purchaseDate"
                 value={this.state.purchaseDate}
                 onChange={this.handleChange}
+                required
               />
             </div>
           </div>
@@ -181,7 +182,7 @@ componentDidMount(){
               </Button>
             </div>
             <div className="button-update">
-              <Button variant="info" onClick={this.handleUpdate}>Update</Button>
+              <Button variant="info" onSubmit={this.handleUpdate}>Update</Button>
             </div>
           </div>
         </form>
